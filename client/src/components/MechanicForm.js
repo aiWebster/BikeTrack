@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../MechanicForm.css';
+import { useNavigate } from 'react-router-dom';
+
+
 
 const MechanicForm = ({ onClose = () => {} }) => {
   const [formData, setFormData] = useState({
@@ -41,8 +44,11 @@ const MechanicForm = ({ onClose = () => {} }) => {
     }
   };
 
+  
   return (
+    
     <div>
+     
       <h2>Add Mechanic</h2>
 
       {successMessage && <div className="success-message">{successMessage}</div>}
@@ -70,6 +76,8 @@ const MechanicForm = ({ onClose = () => {} }) => {
         
       </form>
     </div>
+
+    
   );
   
 };

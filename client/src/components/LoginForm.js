@@ -1,6 +1,8 @@
 // LoginForm.js
 import React, { useState } from 'react';
 import axios from 'axios';
+import '../LoginForm.css';
+
 import { useNavigate } from 'react-router-dom';
 
 const LoginForm = ({ onLogin }) => {
@@ -45,7 +47,9 @@ const LoginForm = ({ onLogin }) => {
 };
 
   return (
+
     <div>
+      <header className='Login-form'>
       <h2>Login</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -58,6 +62,7 @@ const LoginForm = ({ onLogin }) => {
         </div>
         <button type="submit">Login</button>
       </form>
+      </header>
     </div>
   );
 };

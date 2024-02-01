@@ -41,12 +41,7 @@ function App() {
               <Route path="/new-work-order" element={<WorkOrderForm mechanicId={mechanicId} />} />
               <Route path="/open-orders" element={<OpenWorkOrders />} />
               <Route path="/archived-orders" element={<ArchivedWorkOrders/>} />
-              <Route path="/add-mechanic" element={
-                <>
-                  <MechanicForm />
-                  <Link to="/">Back</Link>
-                </>
-              } />
+              <Route path="/add-mechanic" element={<MechanicForm />} />
             </Routes>
           </CSSTransition>
         </TransitionGroup>

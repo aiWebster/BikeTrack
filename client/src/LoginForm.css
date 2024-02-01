@@ -1,0 +1,20 @@
+.Login-form { 
+    background-color: #262C2C;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #C6E7D2;
+  }
+  .Login-form label {
+    display: inline-block;
+    width: 150px; /* Adjust this value as needed */
+    text-align: right;
+    margin-right: 10px; /* Space between label and input field */
+}
+
+.Login-form input {
+    /* Add styles for your input fields if needed */
+}

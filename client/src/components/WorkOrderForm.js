@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react';
 import axios from 'axios';
+import '../WorkOrderForm.css';
+
 
 const WorkOrderForm = ({ }) => {
   const [formData, setFormData] = useState({
@@ -40,7 +42,8 @@ const WorkOrderForm = ({ }) => {
     }
   };
 
-  return (
+  return ( 
+  <div className="form-container">
     <form onSubmit={handleSubmit}>
     <div>
   <label>Status: </label>
@@ -99,6 +102,7 @@ const WorkOrderForm = ({ }) => {
 
       <button type="submit">Submit Work Order</button>
     </form>
+    </div>
   );
 };
 

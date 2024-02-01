@@ -1,0 +1,38 @@
+/* WorkOrderForm.css */
+.form-container {
+    background-color: #262C2C; /* Same as LoginForm */
+    color: #C6E7D2; /* Same as LoginForm */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input,
+  .form-container select,
+  .form-container textarea {
+    width: 50%; 
+    padding: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 1px; /* Space between each field */
+    border: 1px solid #ddd;
+    border-radius: 1px;
+  }
+  
+  .form-container button {
+    background-color: #C6E7D2; /* Green background */
+    color: #262C2C;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #b7e1c6; /* Darker green on hover */
+  }
+  

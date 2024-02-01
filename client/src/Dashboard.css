@@ -1,0 +1,32 @@
+.dashboard {
+    background-color: #262C2C; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: #C6E7D2; 
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column; /* Align the links vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+    margin-top: 20px; /* Spacing above the options */
+  }
+  
+  .option-link {
+    color: #C6E7D2;
+    background-color: transparent; /* Set background color */
+    margin: 5px 0; /* Spacing between each link */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 1rem; /* Adjust font size as needed */
+    /* Additional styles for hover effects, padding, etc., can be added here */
+  }
+  
+  .option-link:hover {
+    text-decoration: underline; /* Example hover effect */
+    /* Other hover styles can be added here */
+  }
+  

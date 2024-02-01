@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import '../Dashboard.css';
+
 
 function Dashboard() {
   const [showOptions, setShowOptions] = useState(false);
@@ -19,7 +21,7 @@ function Dashboard() {
             Open Orders
           </Link>
           <Link to="/archived-orders" className='option-link'>
-          View Archived Work Orders
+            Archived Work Orders
           </Link>
 
         </div>
