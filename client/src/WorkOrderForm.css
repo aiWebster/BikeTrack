@@ -15,7 +15,7 @@
   .form-container input,
   .form-container select,
   .form-container textarea {
-    width: 50%; 
+    width: 100%; 
     padding: 5px;
     font-size: 0.8rem;
     margin-bottom: 1px; /* Space between each field */

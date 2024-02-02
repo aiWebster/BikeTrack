@@ -47,9 +47,9 @@ const MechanicForm = ({ onClose = () => {} }) => {
   
   return (
     
-    <div>
+    <div className='formgroup'>
      
-      <h2>Add Mechanic</h2>
+      <h2>Mechanics</h2>
 
       {successMessage && <div className="success-message">{successMessage}</div>}
       <form onSubmit={handleSubmit}>
@@ -57,7 +57,7 @@ const MechanicForm = ({ onClose = () => {} }) => {
           <label>Name: </label>
           <input type="text" name="name" value={formData.name} onChange={handleChange} required />
         </div>
-        <div>
+        <div> 
           <label>Employee ID: </label>
           <input type="text" name="empId" value={formData.empId} onChange={handleChange} required />
         </div>

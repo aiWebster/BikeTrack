@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import '../ArchivedWorkOrders.css';
+
 
 const ArchivedWorkOrders = () => {
     const [archivedOrders, setArchivedOrders] = useState([]);
@@ -18,7 +20,7 @@ const ArchivedWorkOrders = () => {
     }, []);
 
     return (
-        <div>
+        <div className='table-container'>
             <h2>Archived Work Orders</h2>
             <table>
                 <thead>

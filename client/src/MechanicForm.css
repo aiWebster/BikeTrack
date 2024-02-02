@@ -1,24 +1,50 @@
-.success-message{
-    color: green;
-    border: 1px solid green;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
+.formgroup {
+  background-color: #262C2C; /* Same as LoginForm */
+  color: #C6E7D2; /* Same as LoginForm */
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-/* styles.css or your preferred stylesheet */
-/*button {
-    padding: 10px 15px;
-    margin: 10px 0;
-    background-color: #f5f5f5;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  
-    
-  }
-  
-  button:hover {
-    background-color: #e0e0e0;
-  }
-  */
+
+.formgroup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formgroup input,
+.formgroup select,
+.formgroup textarea {
+  width: 50%; 
+  padding: 5px;
+  font-size: 0.8rem;
+  margin-bottom: 1px; /* Space between each field */
+  border: 1px solid #ddd;
+  border-radius: 1px;
+}
+.success-message {
+  color: #4CAF50; /* Success message color */
+  margin-bottom: 15px; /* Space below the success message */
+}
+
+button {
+  background-color: #C6E7D2; /* Button background color */
+  color: #262C2C; /* Button text color */
+  padding: 10px 15px;
+  border: none;
+  border-radius: 1px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b7e1c6; /* Darker on hover */
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the form items */
+  width: 100%; /* Adjust based on your preference */
+}
+
+.form-group {
+  width: 50%; /* Or whatever percentage of the form's width you prefer */
+}

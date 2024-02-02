@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
+import '../OpenWorkOrders.css';
 
 const OpenWorkOrders = () => {
     const [workOrders, setWorkOrders] = useState([]);
@@ -34,7 +35,7 @@ const OpenWorkOrders = () => {
 
 
     return (
-        <div>
+        <div className='table-container'>
             <h2>Open Work Orders</h2>
             <table>
                 <thead>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../Dashboard.css';
+import Dropdown from '../components/Dropdown';
+
 
 
 function Dashboard() {
@@ -9,7 +11,8 @@ function Dashboard() {
   return (
     <div className="dashboard">
       <h2>Welcome to the Dashboard</h2>
-      
+      <Dropdown className="top-right" />
+
       <button onClick={() => setShowOptions(!showOptions)}>Work Orders</button>
 
       {showOptions && (

@@ -1,0 +1,37 @@
+.table-container {
+    background-color: #262C2C; /* Same as LoginForm */
+    color: #C6E7D2; /* Same as LoginForm */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+table {
+    width: 100%; /* Make table take up full container width */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Add some space above the table */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Light grey border */
+    text-align: left; /* Align text to the left */
+    padding: 8px; /* Add some padding */
+  }
+  
+  th {
+    background-color: #42101A; /* Add a background color to header */
+    color: #C6E7D2; /* White text color */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #262C2C; /* Zebra striping for rows */
+  }
+  
+  select {
+    /* Style your selects if needed */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    /* Adjust table layout for small screens */
+  }
+  

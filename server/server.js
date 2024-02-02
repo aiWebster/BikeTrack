@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const bcrypt = require('bcryptjs');
-const cors = require('cors'); // New line
+const cors = require('cors'); 
 const mechanicRoutes = require('./routes/mechanicRoutes');
 const workOrderRoutes = require('./routes/workorders');
 
@@ -12,7 +12,7 @@ console.log('PORT:', process.env.PORT);
 console.log('MONGODB_URI:', process.env.MONGODB_URI);
 const app = express();
 
-app.use(cors()); // New line
+app.use(cors()); 
 
 app.use(express.json());
 

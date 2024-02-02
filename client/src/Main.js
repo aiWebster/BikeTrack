@@ -9,7 +9,6 @@ function Main({ isLoggedIn, setIsLoggedIn }) {
   return (
     <>
       <header className="App-header">
-        <Dropdown className="top-right" />
         <h1>BikeTrack</h1>
         {!isLoggedIn && <button onClick={() => navigate("/login")}>Login</button>}
       </header>
